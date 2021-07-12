@@ -78,6 +78,12 @@ export class CustomTableComponent implements OnInit {
         this.tableDataSource.data.forEach(row => this.selection.select(row));
   }
 
+  onChange(event: any,row: unknown){
+    console.log(event.checked);
+    console.log(row);
+    //this.tableDataSource.data.forEach(row => console.log(row));
+  }
+
   displayColumns(): string[] {
    
     if (!this.isEventColAdded && this.detailsEvent) {

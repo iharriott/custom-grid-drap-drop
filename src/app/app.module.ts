@@ -17,6 +17,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { MatInputModule } from '@angular/material/input';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { QuoteEventsComponent } from './quote-events/quote-events.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     GenericGridComponent,
     AutoGridComponent,
     CustomTableComponent,
-    CustomerComponent
+    CustomerComponent,
+    QuoteEventsComponent
   ],
   imports: [
     BrowserModule,
